@@ -4,7 +4,7 @@
 💻 Passionate about **backend systems, distributed computing, and applied AI**  
 🚀 Experienced with **Kotlin microservices, data engineering (Kafka, Snowflake, DynamoDB), and full-stack development**  
 🏆 Hackathon Winner (CodeJam14 – *DanceHeroes*)  
-🌐 [LinkedIn](https://www.linkedin.com/in/jason-shao) | [Portfolio Website](https://jasonshaoportfolio.com)  
+🌐 [LinkedIn](https://www.linkedin.com/in/jason-shao-751686189/) | [Portfolio Website](https://jasonshaoportfolio.com)  
 
 ---
 
