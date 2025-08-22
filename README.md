@@ -1,73 +1,64 @@
-👋 Hi, I’m Jason Shao
+# 👋 Hi, I’m Jason Shao  
 
-🎓 Software Engineering @ McGill University (Minor in Applied AI)
-💻 Passionate about backend systems, distributed computing, and applied AI
-🚀 Experienced with Kotlin microservices, data engineering (Kafka, Snowflake, DynamoDB), and full-stack development
-🏆 Hackathon Winner (CodeJam14 – DanceHeroes)
-🌐 LinkedIn
- | Portfolio Website
+🎓 Software Engineering @ McGill University (Minor in Applied AI)  
+💻 Passionate about **backend systems, distributed computing, and applied AI**  
+🚀 Experienced with **Kotlin microservices, data engineering (Kafka, Snowflake, DynamoDB), and full-stack development**  
+🏆 Hackathon Winner (CodeJam14 – *DanceHeroes*)  
+🌐 [LinkedIn](https://www.linkedin.com/in/jason-shao) | [Portfolio Website](https://jasonshaoportfolio.com)  
 
-🔧 Technical Skills
+---
 
-Languages: Java, Kotlin, Python, C++, SQL (Postgres), JavaScript, C#, HTML/CSS, Bash, Assembly, OCaml
+## 🔧 Technical Skills  
 
-Frameworks & Tools: SpringBoot, React, Vue.js, Flask, Django, Node.js, QlikSense, MediaPipe, Scikit-Learn, Unity, Git
+- **Languages**: Java, Kotlin, Python, C++, SQL (Postgres), JavaScript, C#, HTML/CSS, Bash, Assembly, OCaml  
+- **Frameworks & Tools**: SpringBoot, React, Vue.js, Flask, Django, Node.js, QlikSense, MediaPipe, Scikit-Learn, Unity, Git  
+- **Data & Cloud**: Snowflake, Kafka, DynamoDB, BigQuery, Google Workspace  
 
-Data & Cloud: Snowflake, Kafka, DynamoDB, BigQuery, Google Workspace
+---
 
-📂 Featured Projects
-🎶 DanceHeroes – Hackathon Winner (Python, Mediapipe, React)
+## 📂 Featured Projects  
 
-Built an AI-powered rhythm game that generates custom dance routines from any music file.
+### 🎶 DanceHeroes – Hackathon Winner (*Python, Mediapipe, React*)  
+- Built an AI-powered rhythm game that generates custom dance routines from any music file.  
+- Integrated **real-time body tracking** with a 3D model dance system for instant scoring and feedback.  
 
-Integrated real-time body tracking with a 3D model dance system for instant scoring and feedback.
+### 🎮 GameShop – Full-Stack Game Store (*Java, PostgresSQL, SpringBoot, Vue.js*)  
+- Led development of an online game store with secure transactions and role-based dashboards.  
+- Delivered a user-first experience while supporting employee and manager workflows.  
 
-🎮 GameShop – Full-Stack Game Store (Java, PostgresSQL, SpringBoot, Vue.js)
+### 🧠 ParkinSync – Research-driven Data Portal (*Flask, React, Auth0*)  
+- Built software to visualize EMG data from Parkinson’s patients.  
+- Supports biomechanics research into tremor-suppressing exoskeletons and improved diagnoses.  
 
-Led development of an online game store with secure transactions and role-based dashboards.
+### ✋ Hand Gesture Calculator (*Python, Mediapipe, Scikit-Learn*)  
+- Designed a contactless calculator using hand gesture recognition.  
+- Implemented 20+ gesture mappings with real-time feedback via a Tkinter UI.  
 
-Delivered a user-first experience while supporting employee and manager workflows.
+---
 
-🧠 ParkinSync – Research-driven Data Portal (Flask, React, Auth0)
+## 💼 Experience  
 
-Built software to visualize EMG data from Parkinson’s patients.
+**Backend Development Intern @ Block (Cash App)** – *Summer 2025*  
+- Maintained and proposed solutions within **Kotlin-based microservices** for payment transfers.  
+- Integrated **DynamoDB, Kafka, and Snowflake** to support millions of daily transactions with 99% uptime.  
 
-Supports biomechanics research into tremor-suppressing exoskeletons and improved diagnoses.
+**Software Development Intern @ Airbus Canada** – *Summer 2024*  
+- Automated certification processes with **Google Apps Script**, saving 30+ hours weekly.  
+- Developed dashboards in **QlikSense + SQL** for real-time insights and workflow improvements.  
 
-✋ Hand Gesture Calculator (Python, Mediapipe, Scikit-Learn)
+**Undergraduate Research Assistant @ Li Lab** – *Summer 2025*  
+- Adapted **TIME-LLM** into **Tab-LLM** for versatile modeling of tabular datasets.  
 
-Designed a contactless calculator using hand gesture recognition.
+---
 
-Implemented 20+ gesture mappings with real-time feedback via a Tkinter UI.
+## 🌱 Currently Learning  
 
-💼 Experience
+- Advanced **system design & distributed systems**  
+- AI/ML applications in backend infrastructure  
+- Robotics software (preparing for Amazon Robotics Co-op application 🚀)  
 
-Backend Development Intern @ Block (Cash App) – Summer 2025
+---
 
-Maintained and proposed solutions within Kotlin-based microservices for payment transfers.
+## ✨ Fun Fact  
 
-Integrated DynamoDB, Kafka, and Snowflake to support millions of daily transactions with 99% uptime.
-
-Software Development Intern @ Airbus Canada – Summer 2024
-
-Automated certification processes with Google Apps Script, saving 30+ hours weekly.
-
-Developed dashboards in QlikSense + SQL for real-time insights and workflow improvements.
-
-Undergraduate Research Assistant @ Li Lab – Summer 2025
-
-Adapted TIME-LLM into Tab-LLM for versatile modeling of tabular datasets.
-
-🌱 Currently Learning
-
-Advanced system design & distributed systems
-
-AI/ML applications in backend infrastructure
-
-Robotics software (preparing for Amazon Robotics Co-op application 🚀)
-
-✨ Fun Fact
-
-I enjoy combining creativity + engineering, from hackathon games to impactful healthcare software.
-
-Would you like me to also create a structured folder layout (e.g., /projects/DanceHeroes, /projects/GameShop) with individual README.md files so each project has a mini-portfolio page inside your GitHub? That would make your profile even more professional.
+I enjoy combining **creativity + engineering**, from hackathon games to impactful healthcare software.  
