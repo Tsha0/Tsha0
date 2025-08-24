@@ -1,9 +1,8 @@
-# 👋 Hi, I’m Jason Shao  
+# 👋 Hi, I’m Jason  
 
-🎓 Software Engineering @ McGill University (Minor in Applied AI)  
-💻 Passionate about **backend systems, distributed computing, and applied AI**  
+🎓 Software Engineering @ McGill University (Minor in Applied Artificial Intelligence)  
+💻 Passionate about **building new creative projects, AI, and **  
 🚀 Experienced with **Kotlin microservices, data engineering (Kafka, Snowflake, DynamoDB), and full-stack development**  
-🏆 Hackathon Winner (CodeJam14 – *DanceHeroes*)  
 🌐 [LinkedIn](https://www.linkedin.com/in/jason-shao-751686189/) | [Portfolio Website](https://jasonshaoportfolio.com)  
 
 ---
@@ -61,4 +60,5 @@
 
 ## ✨ Fun Fact  
 
-I enjoy combining **creativity + engineering**, from hackathon games to impactful healthcare software.  
+I enjoy combining **creativity + engineering**, from hackathon games to impactful healthcare software. 
+I enjoy playing cello during my free time and I love running.
