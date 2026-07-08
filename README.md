@@ -1,7 +1,7 @@
 # 👋 Hi, I’m Jason  
 
 🎓 Software Engineering @ McGill University (Minor in Applied Artificial Intelligence)  
-💻 Passionate about **building new creative projects, AI, and **  
+💻 Passionate about **building new creative projects and AI**  
 🚀 Experienced with **Kotlin microservices, data engineering (Kafka, Snowflake, DynamoDB), and full-stack development**  
 🌐 [LinkedIn](https://www.linkedin.com/in/jason-shao-751686189/) | [Portfolio Website](https://jasonshaoportfolio.com)  
 
@@ -10,18 +10,18 @@
 ## 🔧 Technical Skills  
 
 - **Languages**: Java, Kotlin, Python, C++, SQL (Postgres), JavaScript, C#, HTML/CSS, Bash, Assembly, OCaml  
-- **Frameworks & Tools**: SpringBoot, React, Vue.js, Flask, Django, Node.js, QlikSense, MediaPipe, Scikit-Learn, Unity, Git  
+- **Frameworks & Tools**: Spring Boot, React, Vue.js, Flask, Django, Node.js, QlikSense, MediaPipe, Scikit-Learn, Unity, Git  
 - **Data & Cloud**: Snowflake, Kafka, DynamoDB, BigQuery, Google Workspace  
 
 ---
 
 ## 📂 Featured Projects  
 
-### 🎶 DanceHeroes – Hackathon Winner (*Python, Mediapipe, React*)  
+### 🎶 DanceHeroes – Hackathon Winner (*Python, MediaPipe, React*)  
 - Built an AI-powered rhythm game that generates custom dance routines from any music file.  
 - Integrated **real-time body tracking** with a 3D model dance system for instant scoring and feedback.  
 
-### 🎮 GameShop – Full-Stack Game Store (*Java, PostgresSQL, SpringBoot, Vue.js*)  
+### 🎮 GameShop – Full-Stack Game Store (*Java, PostgreSQL, Spring Boot, Vue.js*)  
 - Led development of an online game store with secure transactions and role-based dashboards.  
 - Delivered a user-first experience while supporting employee and manager workflows.  
 
@@ -29,7 +29,7 @@
 - Built software to visualize EMG data from Parkinson’s patients.  
 - Supports biomechanics research into tremor-suppressing exoskeletons and improved diagnoses.  
 
-### ✋ Hand Gesture Calculator (*Python, Mediapipe, Scikit-Learn*)  
+### ✋ Hand Gesture Calculator (*Python, MediaPipe, Scikit-Learn*)  
 - Designed a contactless calculator using hand gesture recognition.  
 - Implemented 20+ gesture mappings with real-time feedback via a Tkinter UI.  
 
@@ -60,5 +60,5 @@
 
 ## ✨ Fun Fact  
 
-I enjoy combining **creativity + engineering**, from hackathon games to impactful healthcare software. 
-I enjoy playing cello during my free time and I love running.
+I enjoy combining **creativity + engineering**, from hackathon games to impactful healthcare software.  
+Outside of code, I play cello and love running.
