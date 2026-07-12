@@ -29,7 +29,7 @@ def main():
 
     readme = HERE.parent / "README.md"
     text = readme.read_text()
-    latest = f"<!-- canvas-latest -->Latest pixel: ({x}, {y}) painted {color} by [@{author}](https://github.com/{author})<!-- /canvas-latest -->"
+    latest = f"<!-- canvas-latest -->\nLatest pixel: ({x}, {y}) painted {color} by [@{author}](https://github.com/{author})\n<!-- /canvas-latest -->"
     text = re.sub(r"<!-- canvas-latest -->.*?<!-- /canvas-latest -->", latest, text, flags=re.S)
     readme.write_text(text)
 
