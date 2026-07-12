@@ -46,3 +46,15 @@ I like building things — backend systems, creative side projects, and the occa
 ---
 
 Outside of code, I play cello, run, and have been enjoying cooking lately.
+
+---
+
+## Pixel canvas
+
+A tiny r/place on my profile — anyone can paint, no account setup needed beyond GitHub itself.
+
+<img src="canvas/canvas.svg" alt="Community pixel canvas" width="640">
+
+**[Place a pixel](https://github.com/Tsha0/Tsha0/issues/new?title=place%7C12%7C5%7C%23ff4757&body=Edit+the+title+to+pick+your+pixel%3A+%60place%7Cx%7Cy%7C%23RRGGBB%60+%28x+0-39%2C+y+0-19%2C+top-left+is+0%2C0%29.+Then+submit+%E2%80%94+a+bot+paints+it+and+closes+this+issue+within+a+minute.)** — edit the issue title to `place|x|y|#RRGGBB`, submit, and a bot paints it within a minute.
+
+<!-- canvas-latest -->Latest pixel: the seed heart by [@Tsha0](https://github.com/Tsha0)<!-- /canvas-latest -->
