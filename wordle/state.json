@@ -1,6 +1,12 @@
 {
- "date": "",
- "answer": "",
- "guesses": [],
+ "date": "2026-07-12",
+ "answer": "sever",
+ "guesses": [
+  {
+   "word": "toast",
+   "score": "xxxyx",
+   "by": "Tsha0"
+  }
+ ],
  "solved": false
 }
