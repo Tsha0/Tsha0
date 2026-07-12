@@ -7,7 +7,7 @@ One shared puzzle a day — six guesses total for everyone combined, new word at
 **[Guess the word](https://github.com/Tsha0/Tsha0/issues/new?title=wordle%7Ccrane&body=Edit+the+title+to+%60wordle%7Cyourword%60+%28any+five-letter+word%29.+Submit+%E2%80%94+a+bot+scores+your+guess+and+closes+this+issue+within+a+minute.)** — edit the issue title to `wordle|yourword`, submit, and a bot scores it within a minute.
 
 <!-- wordle-status -->
-Today's puzzle: 1/6 guesses used — last guess by [@Tsha0](https://github.com/Tsha0).
+Today's puzzle: 2/6 guesses used — last guess by [@Tsha0](https://github.com/Tsha0).
 <!-- /wordle-status -->
 
 ---

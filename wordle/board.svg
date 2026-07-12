@@ -10,11 +10,16 @@
 <text x="212.0" y="46.0" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="26" font-weight="bold" fill="#e6edf3">S</text>
 <rect x="244" y="12" width="52" height="52" rx="4" fill="#30363d"/>
 <text x="270.0" y="46.0" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="26" font-weight="bold" fill="#e6edf3">T</text>
-<rect x="12" y="70" width="52" height="52" rx="4" fill="#161b22"/>
-<rect x="70" y="70" width="52" height="52" rx="4" fill="#161b22"/>
-<rect x="128" y="70" width="52" height="52" rx="4" fill="#161b22"/>
-<rect x="186" y="70" width="52" height="52" rx="4" fill="#161b22"/>
-<rect x="244" y="70" width="52" height="52" rx="4" fill="#161b22"/>
+<rect x="12" y="70" width="52" height="52" rx="4" fill="#30363d"/>
+<text x="38.0" y="104.0" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="26" font-weight="bold" fill="#e6edf3">C</text>
+<rect x="70" y="70" width="52" height="52" rx="4" fill="#d29922"/>
+<text x="96.0" y="104.0" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="26" font-weight="bold" fill="#e6edf3">R</text>
+<rect x="128" y="70" width="52" height="52" rx="4" fill="#30363d"/>
+<text x="154.0" y="104.0" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="26" font-weight="bold" fill="#e6edf3">A</text>
+<rect x="186" y="70" width="52" height="52" rx="4" fill="#30363d"/>
+<text x="212.0" y="104.0" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="26" font-weight="bold" fill="#e6edf3">N</text>
+<rect x="244" y="70" width="52" height="52" rx="4" fill="#d29922"/>
+<text x="270.0" y="104.0" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="26" font-weight="bold" fill="#e6edf3">E</text>
 <rect x="12" y="128" width="52" height="52" rx="4" fill="#161b22"/>
 <rect x="70" y="128" width="52" height="52" rx="4" fill="#161b22"/>
 <rect x="128" y="128" width="52" height="52" rx="4" fill="#161b22"/>
