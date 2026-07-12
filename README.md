@@ -57,4 +57,4 @@ A tiny r/place on my profile — anyone can paint, no account setup needed beyon
 
 **[Place a pixel](https://github.com/Tsha0/Tsha0/issues/new?title=place%7C12%7C5%7C%23ff4757&body=Edit+the+title+to+pick+your+pixel%3A+%60place%7Cx%7Cy%7C%23RRGGBB%60+%28x+0-39%2C+y+0-19%2C+top-left+is+0%2C0%29.+Then+submit+%E2%80%94+a+bot+paints+it+and+closes+this+issue+within+a+minute.)** — edit the issue title to `place|x|y|#RRGGBB`, submit, and a bot paints it within a minute.
 
-<!-- canvas-latest -->Latest pixel: (30, 4) painted #58a6ff by [@Tsha0](https://github.com/Tsha0)<!-- /canvas-latest -->
+<!-- canvas-latest -->Latest pixel: (12, 5) painted #ff4757 by [@Tsha0](https://github.com/Tsha0)<!-- /canvas-latest -->
