@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/card.svg profile/stats.json
+          git add profile/card.svg profile/stats.json README.md
           if git diff --quiet --cached; then
             echo "card unchanged"
             exit 0

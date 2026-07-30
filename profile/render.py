@@ -1,7 +1,9 @@
 import datetime
+import hashlib
 import json
 import os
 import pathlib
+import re
 import urllib.error
 import urllib.request
 
@@ -232,7 +234,19 @@ def build(today):
         "</rect></g>"
     )
     out.append("</svg>")
-    (HERE / "card.svg").write_text("\n".join(out) + "\n")
+    svg = "\n".join(out) + "\n"
+    (HERE / "card.svg").write_text(svg)
+    stamp(svg)
+
+
+def stamp(svg):
+    """Version the img URL so GitHub's camo proxy can't serve a stale card."""
+    readme = HERE.parent / "README.md"
+    version = hashlib.sha256(svg.encode()).hexdigest()[:8]
+    text = readme.read_text()
+    readme.write_text(
+        re.sub(r'src="profile/card\.svg(\?v=\w+)?"', f'src="profile/card.svg?v={version}"', text)
+    )
 
 
 if __name__ == "__main__":
