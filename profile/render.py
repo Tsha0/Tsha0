@@ -25,10 +25,9 @@ GREEN = "#3ddc84"
 AMBER = "#ffb86c"
 
 FIELDS = [
-    ("os", "macOS · Linux · Web"),
-    ("host", "Block · Cash App"),
-    ("role", "SWE Intern @ Block · SE @ McGill"),
-    ("tools", "Neovim · tmux · Claude Code · Ghostty"),
+    ("os", "macOS"),
+    ("role", "SE @ McGill"),
+    ("tools", "herdr · tmux · Ghostty · vim"),
     ("code", "Python · TypeScript · Kotlin · Go · Java"),
     ("based", "Montréal, QC 🇨🇦"),
     ("hometown", "Shanghai, China 🇨🇳"),
