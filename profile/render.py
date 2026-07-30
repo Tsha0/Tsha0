@@ -131,6 +131,12 @@ def command(text):
     return [("$ ", PINK), (text, FG)]
 
 
+TYPE_DUR = 0.7
+STAGGER = 0.12
+REVEAL = 0.28
+BAND = 70
+
+
 def build(today):
     data = stats()
     fields = [("uptime", uptime(data["created_at"], today))] + FIELDS
@@ -159,6 +165,19 @@ def build(today):
         '<feGaussianBlur stdDeviation="1.6" result="b"/>',
         '<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>',
         "</filter>",
+        '<filter id="pulse" x="-40%" y="-40%" width="180%" height="180%">',
+        '<feGaussianBlur stdDeviation="1.2" result="b">',
+        '<animate attributeName="stdDeviation" values="1.1;2.4;1.1" dur="3.4s" '
+        'calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" repeatCount="indefinite"/>',
+        "</feGaussianBlur>",
+        '<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>',
+        "</filter>",
+        '<linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">',
+        f'<stop offset="0" stop-color="{CYAN}" stop-opacity="0"/>',
+        f'<stop offset="0.5" stop-color="{CYAN}" stop-opacity="0.07"/>',
+        f'<stop offset="1" stop-color="{CYAN}" stop-opacity="0"/>',
+        "</linearGradient>",
+        f'<clipPath id="screen"><rect width="{width}" height="{height}" rx="12"/></clipPath>',
         "</defs>",
         f'<rect width="{width}" height="{height}" rx="12" fill="{BG}" stroke="{EDGE}"/>',
         f'<path d="M0 12a12 12 0 0 1 12-12h{width - 24}a12 12 0 0 1 12 12v{CHROME - 12}H0z" fill="{BAR}"/>',
@@ -168,26 +187,52 @@ def build(today):
         '<circle cx="62" cy="22" r="6" fill="#28c840"/>',
         f'<text x="{width / 2}" y="27" text-anchor="middle" font-size="12.5" fill="{AMBER}" '
         f'font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" '
-        f'filter="url(#glow)">{USER.lower()}@github — zsh</text>',
+        f'filter="url(#pulse)">{USER.lower()}@github — zsh</text>',
         f'<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" '
         f'font-size="{FONT}" xml:space="preserve">',
     ]
 
     y = CHROME + PAD + FONT
+    shown = 0
     for segments in lines:
         if segments:
             spans = "".join(f'<tspan fill="{c}">{esc(t)}</tspan>' for t, c in segments)
-            out.append(f'<text x="{PAD}" y="{y}">{spans}</text>')
+            if shown == 0:
+                chars = sum(len(text) for text, _ in segments)
+                steps = ";".join(f"{i * CH:.1f}" for i in range(chars + 1))
+                out.append(
+                    f'<clipPath id="type"><rect x="{PAD}" y="{y - FONT}" width="0" '
+                    f'height="{FONT + 6}"><animate attributeName="width" values="{steps}" '
+                    f'calcMode="discrete" dur="{TYPE_DUR}s" fill="freeze"/></rect></clipPath>'
+                )
+                out.append(f'<text x="{PAD}" y="{y}" clip-path="url(#type)">{spans}</text>')
+            else:
+                begin = TYPE_DUR + (shown - 1) * STAGGER
+                out.append(
+                    f'<text x="{PAD}" y="{y}" opacity="0">{spans}'
+                    f'<animate attributeName="opacity" from="0" to="1" begin="{begin:.2f}s" '
+                    f'dur="{REVEAL}s" fill="freeze"/></text>'
+                )
+            shown += 1
         y += LINE
 
+    booted = TYPE_DUR + max(0, shown - 2) * STAGGER + REVEAL
     cursor_x = PAD + 7 * CH
     out.append(
         f'<rect x="{cursor_x:.1f}" y="{y - LINE - FONT + 2}" width="{CH:.1f}" height="{FONT + 2}" '
-        f'fill="{GREEN}" filter="url(#glow)">'
-        '<animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>'
+        f'fill="{GREEN}" filter="url(#glow)" opacity="0">'
+        f'<animate attributeName="opacity" values="1;1;0;0" begin="{booted:.2f}s" '
+        'dur="1.1s" repeatCount="indefinite"/>'
         "</rect>"
     )
-    out += ["</g>", "</svg>"]
+    out.append("</g>")
+    out.append(
+        f'<g clip-path="url(#screen)"><rect width="{width}" height="{BAND}" fill="url(#scan)">'
+        f'<animateTransform attributeName="transform" type="translate" '
+        f'from="0 {CHROME}" to="0 {height}" dur="7s" repeatCount="indefinite"/>'
+        "</rect></g>"
+    )
+    out.append("</svg>")
     (HERE / "card.svg").write_text("\n".join(out) + "\n")
 
 
