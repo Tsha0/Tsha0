@@ -30,7 +30,7 @@ FIELDS = [
     ("os", "macOS"),
     ("role", "SE @ McGill"),
     ("tools", "herdr · tmux · Ghostty · vim"),
-    ("code", "Python · TypeScript · Kotlin · Go · Java"),
+    ("code", "Python · JavaScript · Kotlin · Java"),
     ("based", "Montréal, QC 🇨🇦"),
     ("hometown", "Shanghai, China 🇨🇳"),
 ]
