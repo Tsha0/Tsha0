@@ -31,10 +31,11 @@ FIELDS = [
     ("tools", "Neovim · tmux · Claude Code · Ghostty"),
     ("code", "Python · TypeScript · Kotlin · Go · Java"),
     ("based", "Montréal, QC 🇨🇦"),
+    ("hometown", "Shanghai, China 🇨🇳"),
 ]
 CONTACT = [
     ("github", f"@{USER}"),
-    ("web", f"{USER.lower()}.github.io"),
+    ("linkedin", "in/jason-shao-751686189"),
 ]
 
 
