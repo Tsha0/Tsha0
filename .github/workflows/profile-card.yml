@@ -1,0 +1,37 @@
+name: Profile card
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-card
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render card
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 profile/render.py
+
+      - name: Commit card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/card.svg profile/stats.json
+          if git diff --quiet --cached; then
+            echo "card unchanged"
+            exit 0
+          fi
+          git commit -m "profile: refresh card"
+          git pull --rebase origin main
+          git push
