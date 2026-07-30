@@ -30,7 +30,6 @@ FIELDS = [
     ("role", "SWE Intern @ Block · SE @ McGill"),
     ("tools", "Neovim · tmux · Claude Code · Ghostty"),
     ("code", "Python · TypeScript · Kotlin · Go · Java"),
-    ("building", "AI agents · developer tools · dashboards"),
     ("based", "Montréal, QC 🇨🇦"),
 ]
 CONTACT = [
